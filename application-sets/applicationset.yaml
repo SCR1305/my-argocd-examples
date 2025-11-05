@@ -16,7 +16,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/javalove93/argocd-examples.git
+        repoURL: git@github.com:SCR1305/my-argocd-examples.git
         targetRevision: HEAD
         path: application-sets/{{cluster}}/guestbook/
       destination:
